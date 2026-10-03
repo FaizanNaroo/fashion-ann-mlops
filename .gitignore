@@ -10,4 +10,6 @@ models/
 *.npy
 
 .dvc/config.local
+confusion_matrix.png
+dvc-repro-*.log
 
