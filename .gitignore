@@ -1,4 +1,12 @@
+
 venv/
 __pycache__/
 .dvc/cache/
 *.h5
+
+data/raw/
+data/processed/
+models/
+*.npy
+
+.dvc/config.local
