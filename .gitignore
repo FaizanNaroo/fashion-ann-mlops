@@ -12,4 +12,5 @@ models/
 .dvc/config.local
 confusion_matrix.png
 dvc-repro-*.log
+metrics.json
 
