@@ -1,5 +1,9 @@
 import numpy as np
 from tensorflow.keras.datasets import fashion_mnist
+from pathlib import Path
+
+Path("data/raw").mkdir(parents=True, exist_ok=True)
+Path("data/processed").mkdir(parents=True, exist_ok=True)
 
 (x_train, y_train), (x_test, y_test) = fashion_mnist.load_data()
 
